@@ -10,6 +10,7 @@ import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import { Home } from "@mui/icons-material";
 import { Button, Icon } from "@mui/material";
 import { UserContext } from "../contexts/user";
+import Cookies from "js-cookie";
 
 function UserMenu() {
   const user = React.useContext(UserContext);
